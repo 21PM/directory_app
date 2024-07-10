@@ -1,8 +1,27 @@
-# React + Vite
+# Directory App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a directory app built with React.js and Tailwind CSS, allowing users to store and search user information using local storage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Enter user information: name, date of birth, ID proof, and mobile number.
+- Store user information in local storage.
+- Search for users by ID proof number.
+- Utilizes React Router DOM for navigation and React Toastify for notifications.
+
+## Technologies Used
+
+- React.js
+- React Router DOM
+- React Toastify
+- Tailwind CSS
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
